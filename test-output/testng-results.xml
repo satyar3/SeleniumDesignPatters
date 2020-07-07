@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13196" started-at="2020-07-05T09:28:37Z" finished-at="2020-07-05T09:28:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13196" started-at="2020-07-05T09:28:37Z" finished-at="2020-07-05T09:28:50Z">
+      <class name="com.qa.selenium.design.test.decorator.DashboardPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.selenium.design.test.decorator.DashboardPageTest@f6c48ac]" name="setUp" is-config="true" duration-ms="4938" started-at="2020-07-05T14:58:37Z" finished-at="2020-07-05T14:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setDashboardPage()[pri:0, instance:com.qa.selenium.design.test.decorator.DashboardPageTest@f6c48ac]" name="setDashboardPage" is-config="true" duration-ms="83" started-at="2020-07-05T14:58:42Z" depends-on-methods="com.qa.selenium.design.test.BaseTest.setUp" finished-at="2020-07-05T14:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDashboardPage -->
+        <test-method status="PASS" signature="roleTest(java.util.function.Consumer)[pri:0, instance:com.qa.selenium.design.test.decorator.DashboardPageTest@f6c48ac]" name="roleTest" duration-ms="3544" started-at="2020-07-05T14:58:42Z" data-provider="testData" finished-at="2020-07-05T14:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java.util.function.Consumer$$Lambda$259/4073506@65e61854]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleTest -->
+        <test-method status="PASS" signature="roleTest(java.util.function.Consumer)[pri:0, instance:com.qa.selenium.design.test.decorator.DashboardPageTest@f6c48ac]" name="roleTest" duration-ms="446" started-at="2020-07-05T14:58:46Z" data-provider="testData" finished-at="2020-07-05T14:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java.util.function.Consumer$$Lambda$259/4073506@24a1c17f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleTest -->
+        <test-method status="PASS" signature="roleTest(java.util.function.Consumer)[pri:0, instance:com.qa.selenium.design.test.decorator.DashboardPageTest@f6c48ac]" name="roleTest" duration-ms="410" started-at="2020-07-05T14:58:46Z" data-provider="testData" finished-at="2020-07-05T14:58:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java.util.function.Consumer$$Lambda$259/4073506@1a6f5124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roleTest -->
+        <test-method status="PASS" signature="tearDwon()[pri:0, instance:com.qa.selenium.design.test.decorator.DashboardPageTest@f6c48ac]" name="tearDwon" is-config="true" duration-ms="3743" started-at="2020-07-05T14:58:47Z" finished-at="2020-07-05T14:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwon -->
+      </class> <!-- com.qa.selenium.design.test.decorator.DashboardPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
